@@ -20,7 +20,7 @@
 					tickets.find(".quantity").keyup(function(){
 						var cost = vacation.data("price");
 						var quantity = $(this).val();
-						tickets.find(".total").text(cost * quantity);
+						tickets.find(".total").text(amount * quantity);
 					});
 			});	
 
@@ -33,7 +33,7 @@
 		    $(".vote").click(function(){
     			alert("You voted for..." + $(this).attr('#vacations'));
 
-    			$("#myDialogText").text("harro");
+    	
 		});
 
 			// Update "total price" when quantity changes
@@ -41,6 +41,8 @@
 			// Give user feedback for each vote
 
 			// Reveal hidden paragraph on click
+
+			//priscilla was here !
 
 		});
 		</script>
